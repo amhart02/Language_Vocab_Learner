@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+## Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Project Title**: Language Vocab Learner
 
-## Get started
+**Project Description**: A mobile app where users can choose a language in which to learn vocabulary. After a language is chosen, they will be taken to a separate page with the chosen language's vocab words.  
 
-1. Install dependencies
+**Project Goals**: Allow user input by clicking a language. Create a separate screen to display vocabulary words. Create an overall good user experience!
 
-   ```bash
-   npm install
-   ```
+## Instructions for Build and Use
 
-2. Start the app
+Steps to build and/or run the software:
 
-   ```bash
-    npx expo start
-   ```
+1. Ensure you have node.js downloaded. 
+2. Create an expo, either new or the beginning template provided by React Native. 
+3. Make changes to the beginning template in the tsx files or start over using "npm run reset-project".
 
-In the output, you'll find options to open the app in a
+Instructions for using the software:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Open the app
+2. Choose a language to learn 
+3. View the vocabulary words on the separate screen
+4. Choose to go back to the main menu using the back button
+5. Pick another language to learn if desired
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Development Environment 
 
-## Get a fresh project
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-When you're ready, run:
+* Node.js
+* npm
+* Expo CLI
+* Android studio
+* React Native
+* React Navigation
 
-```bash
-npm run reset-project
-```
+## Useful Websites to Learn More
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+I found these websites useful in developing this software:
 
-## Learn more
+* Build a screen (https://docs.expo.dev/tutorial/build-a-screen/)
+* React Native Tutorial (https://www.tutorialspoint.com/react_native/index.htm)
+* Learning React Basics (ChatGPT)
 
-To learn more about developing your project with Expo, look at the following resources:
+## Future Work
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The following items I plan to fix, improve, and/or add to this project in the future:
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* [ ] More vocab languages, hopefully from an API so I don't have to create the files with the information manually.
+* [ ] Make the app a little prettier overall and less bland.
+* [ ] Make a way to track progress with learning and make flashcards
