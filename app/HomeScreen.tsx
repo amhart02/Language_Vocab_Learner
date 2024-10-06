@@ -9,7 +9,7 @@ type Language = {
   index: number;
   languageName: string;
   flag: string;
-  vocabWords: any[]; // You can create a type for vocabWords if necessary
+  vocabWords: any[]; 
 };
 
 type RootStackParamList = {

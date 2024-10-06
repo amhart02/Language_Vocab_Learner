@@ -9,10 +9,8 @@ type VocabWord = {
   english: string;
 };
 
-// Define a type for your route parameters
 type VocabScreenRouteProp = RouteProp<{ VocabScreen: { languageName: string; vocabWords: VocabWord[] } }, 'VocabScreen'>;
 
-// Define your component props
 type Props = {
   route: VocabScreenRouteProp;
 };
@@ -62,6 +60,6 @@ const styles = StyleSheet.create({
     color: 'gray',
   },
   scrollContainer: {
-    paddingBottom: 16, // Add padding if needed
+    paddingBottom: 16,
   },
 });
